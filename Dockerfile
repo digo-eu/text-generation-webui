@@ -4,7 +4,9 @@ RUN apt-get update && \
     apt-get install --no-install-recommends -y git vim build-essential python3-dev python3-venv && \
     rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/oobabooga/GPTQ-for-LLaMa /build
+RUN git clone https://github.com/qwopqwop200/GPTQ-for-LLaMa.git -b triton /build
+
+EXPOSE 7860
 
 WORKDIR /build
 

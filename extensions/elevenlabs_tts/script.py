@@ -7,7 +7,7 @@ from modules import chat, shared
 
 params = {
     'activate': True,
-    'api_key': None,
+    'api_key': '3a13266805aebeef8547fbabd718264d',
     'selected_voice': 'None',
     'autoplay': False,
     'show_text': True,
